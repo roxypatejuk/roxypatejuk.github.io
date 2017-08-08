@@ -1,0 +1,122 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1500px) {
+    .overlay .text p {
+       font-size: 16px;
+   }
+   .overlay .txt {
+       display: none;
+   }
+   .content .one-post {
+     margin: 18px;
+   }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    #wrapper.menu {
+        width: auto;
+    }
+    .overlay .text p {
+       font-size: 14px;
+   }
+   .overlay .text {
+       display: none;
+   }
+   .content .one-post {
+     margin: 12px;
+   }
+
+   /*DRIVERS*/
+   .driver-photo {
+    width: auto;
+    height: 1380px;
+   }
+    .driver-post {
+      margin: 5px;
+    }
+    .driver-image {
+      height: 240px;
+      font-size: 18px;
+    }
+    .driver-image:hover .driver-title {
+      height: 80px;
+    }
+    .driver-image .driver-title p {
+      position: relative;
+      top:30%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+ .overlay .text {
+     display: none;
+ }
+ .content .one-post {
+   margin: 5px;
+ }
+.content .one-post {
+  width: 100%;
+  margin: 10px;
+}
+.overlay .text p {
+    font-size: 20px;
+}
+.slider {
+  display: none;
+}
+.footer-txt p {
+  font-size: 10px;
+}
+
+/*TEAMS*/
+.team-content .overlayT  {
+  clear: both;
+  width: 100%;
+}
+.text  {
+  font-size: 30px;
+}
+
+/*DRIVERS*/
+.driver-photo {
+  width: auto;
+  height: 1180px;
+}
+ .driver-post {
+   width: 23%;
+   height: 220px;
+ }
+ .driver-title  {
+  font-size: 14px;
+}
+.driver-image:hover .driver-title {
+  height: 65px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 500px) {
+.menu ul li a {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.overlay .text p {
+     font-size: 14px;
+ }
+ /*TEAMS*/
+ .text  {
+   font-size: 20px;
+ }
+ /*DRIVERS*/
+ .driver-post {
+   width: 80%;
+   height: 230px;
+ }
+ .driver-image .driver-title p {
+   position: relative;
+   top:20%;
+   font-size: 20px;
+ }
+}

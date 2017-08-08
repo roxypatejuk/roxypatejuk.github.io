@@ -1,0 +1,60 @@
+.text {
+	  color: #fff;
+	  font-size: 40px;
+	  text-align: center;
+	  padding: 20px;
+}
+.driver-index {
+	  width: 90%;
+	  height: 1430px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: block;
+}
+.driver-post {
+	  float: left;
+	  text-align: center;
+	  width: 23%;
+	  height: 260px;
+	  margin: 10px;
+	  display: block;
+	  overflow: hidden;
+}
+.driver-image img {
+	  width: 100%;
+	  height: 100%;
+	  display: inline-block;
+	  text-align: center;
+	  position: relative;
+	  font-size: 14px;
+}
+.driver-image {
+	  position: relative;
+	  width: 100%;
+	  height: 280px;
+	  font-size: 20px;
+}
+.driver-image .driver-title {
+	  position: absolute;
+	  display: block;
+	  width: 100%;
+	  height: 65px;
+	  background-color: #111;
+	  left: 0;
+	  bottom: 0;
+	  opacity: 0.95;
+	  -moz-transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+	  transition: all 0.4s ease-in-out;
+	  text-decoration: none;
+	  color: #fff;
+}
+.driver-image:hover .driver-title {
+	  height: 90px;
+	  background-color: #ff0000;
+}
+.driver-image .driver-title p {
+	  position: relative;
+	  top:20%;
+}
